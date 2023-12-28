@@ -11,7 +11,6 @@ html,body{
     background-size: cover;
     height: 100vh;
     width: 100vw;
-
 }
 .main>.container{
     display: flex;
@@ -31,7 +30,7 @@ h1,h2{
     color: #f5f5dc;
 }
 .main h2{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 300;
     letter-spacing: 3px;
     position: relative;
@@ -40,34 +39,27 @@ h1,h2{
 }
 .intro{
     margin-top: 80px;
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: 0.1fr 0.5fr;
-    gap: 20px;
-    place-items: center;
 }
 .intro img{
-    grid-area:1/2/3/3;
-    height: 260px;
-    width: 260px;
+    height: 250px;
+    width: 250px;
     margin-top: 25px;
+    margin: 0 auto;
 }
 p{
-    margin-left: 80px;
-    font-size: 30px;
+    margin-left: 55px;
+    font-size: 28px;
     color: #f5f5dc;
     font-weight: 100;
+    margin-bottom: 20px;
 }
 .intro p{
     text-align:left;
-    grid-area: 2/1/3/2;
-    height: 250px;
     margin-top: 30px;
 }
 .intro h2{
     top: 0px;
     margin-left: 80px;
-    grid-area:1/1/2/2;
     font-size: 80px;
     font-family: Playlist-Script;
     text-align: left;
@@ -75,13 +67,8 @@ p{
 }
 .skills {
     margin-top: 80px;
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: 0.1fr 100px 1fr 100px 1fr;
-    height: 800px;
 }
 .skills h2{
-    grid-area: 1/1/2/3;
     text-transform:uppercase;
     margin-left: 80px;
     font-size: 80px;
@@ -90,7 +77,6 @@ p{
     font-family: Playlist-Script;
 }
 .coding {
-    grid-area: 2/1/2/2;
     color: #f5f5dc;
     font-size: 60px;
     font-family: Playlist-Script;
@@ -99,19 +85,20 @@ p{
     margin-left: 80px;
 }
 .para1{
-    grid-area: 3/1/4/2;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left ;
 }
 .coding-container{
-    grid-area: 2/2/4/4;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.coding-container>img{
+    margin-left: 80px;
+    margin-right: 0px;
+}
 .anime{
-    grid-area: 4/1/5/2;
     letter-spacing: 5px;
     text-transform: capitalize;
     color: #f5f5dc;
@@ -124,45 +111,30 @@ p{
     margin-left: 80px;
 }
 .para2{
-    grid-area: 5/1/6/2;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left ;
 }
-.anime-container{
-    grid-area: 4/2/6/6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .skills img{
-    height: 260px;
-    width: 260px;
+    height: 250px;
+    width: 250px;
 }
 .touch{
     margin-top: 200px;
     height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    gap: 30px;
 }
 .touch h2,p{
     color: #f5f5dc;
-    text-align: center;
 }
 .touch h2{
     font-size: 80px;   
-    font-family: Playlist-Script;                                            
-}
-.touch>p{
-    margin-top: 30px;
+    font-family: Playlist-Script; 
+    margin-left: 55px;                                           
 }
 .container1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
 }
 button{
     background-color: #0d0f3b;
@@ -175,22 +147,12 @@ button{
     font-size: 16px;
     border-radius: 30px;
 }
-.Projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 1fr;
-    place-items: center;
-    height: 500px;
-}
-.Projects>h2{
-    grid-column: span 2;
-    text-align: center;
+.Projects h2{
     font-family: Playlist-Script;
     font-size: 60px;
     color: #f5f5dc;
 }
 .Projects img{
-    grid-area: 2/1/3/2;
     height: 260px;
     width: 260px;
     border: 1px solid black;
